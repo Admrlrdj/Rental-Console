@@ -1,8 +1,8 @@
 from datetime import datetime
 
-fileusers = "users.csv"
-fileloans = "loans.csv"
-fileconsoles = "consoles.csv"
+db_users = "databases/users.csv"
+db_loans = "databases/loans.csv"
+db_devices = "databases/devices.csv"
 
 def admin():
     print("=============== ADMIN ===============")
@@ -27,8 +27,6 @@ def admin():
     else:
         print("Invalid choice. Please try again.")
         admin()
-
-
 
 def tambah_peminjaman():
     print("\n=== Tambah Peminjaman Console Game ===")
@@ -98,6 +96,3 @@ def menu_peminjaman():
             admin()
         else:
             print("Pilihan tidak valid. Coba lagi.")
-
-if __name__ == "__main__":
-    admin()

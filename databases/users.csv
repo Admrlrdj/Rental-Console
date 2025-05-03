@@ -1,0 +1,8 @@
+id,email,username,password,role,phone,jenkel,isMember
+1,radja@gmail.com,radja,123,user,0812,L,0
+2,rafi@gmail.com,rafi,123,admin,0895,L,0
+3,nuno@gmail.com,nuno,123,petugas,08814,L,0
+4,sebib@gmail.com,sebib,123,petugas,0861,L,0
+5,dika@gmail.com,dika,123,admin,0888,L,0
+6,cey@gmail.com,cey,123,petugas,08123,P,0
+7,admiral@gmail.com,admiral,123,user,083213,L,1
