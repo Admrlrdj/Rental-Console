@@ -41,9 +41,9 @@ def login():
                 if row[4] == "admin": # kalau login sebagai admin akan ke page admin
                     print("Welcome, Admin!")
                     admin.admin()
-                elif row[4] == "member": # kalau login sebagai member akan ke page member
-                    print("Welcome, Member!")
-                    user.member()
+                elif row[4] == "user": # kalau login sebagai member akan ke page member
+                    print("Welcome, User!")
+                    user.member(username=row[2])
                 elif row[4] == "petugas": # kalau login sebagai petugas akan ke page petugas
                     print("Welcome, Petugas!")
                     petugas.petugas()
